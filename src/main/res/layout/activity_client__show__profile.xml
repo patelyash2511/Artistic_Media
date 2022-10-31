@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Show_Artist_Profile"
+    android:background="@drawable/gglround">
+
+    <View
+        android:id="@+id/guidline"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/guidline"
+        android:layout_marginBottom="50dp"
+        />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_picture"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/profilename"
+        android:layout_centerHorizontal="true"
+        android:src="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/profilename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mailid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:text="Your Name"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mailid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="youremail@gmail.com"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_below="@+id/guidline">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:background="@drawable/button_border"
+                android:id="@+id/cliedit"
+                android:gravity="center"
+                android:layout_marginLeft="30dp"
+
+                android:layout_marginTop="100dp"
+                android:text="Edit Your Profile"/>
+
+           <!-- <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round"
+                android:id="@+id/clilogout"
+                android:layout_below="@+id/cliedit"
+                android:layout_marginTop="5dp"
+                android:text="Logout"/>-->
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".how_it_works"
+    android:background="#2196F3">
+
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:lineSpacingExtra="10sp"
+        android:text="1.How Artist Profile Works?"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_below="@+id/txt1"
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:lineSpacingExtra="10sp"
+        android:text="2.FAQ Artist"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_below="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:lineSpacingExtra="10sp"
+        android:text="3.FAQ Client"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=">How Artist Profile Works:"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="4dp"
+        android:textStyle="bold"
+        android:layout_below="@id/txt3"
+
+        />
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt4"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:autoLink="web"
+        android:clickable="true"
+        android:text=" In Your Profile you just need to Create Blog From Given Link  https://www.blogger.com
+        -Sign In
+        -Create Pages
+        -Publish it
+        -Copy the the Page (Preview) link and Paste it in
+            Description of Your Profile in our App
+        -When you look through these projects and find an
+            opportunity that works for you, you can make an offer."/>
+
+    <TextView
+        android:id="@+id/txt6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=">FAQ Artist:"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="4dp"
+        android:layout_below="@id/txt5"
+        />
+
+    <TextView
+        android:id="@+id/txt7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt6"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:text="        -How can I get find work on this platform?
+
+        -When a client wants to commission an artist for some artwork, We are Providing them.Your Profile.
+        -In Your Profile you just need to Create Blog From Given Link  https://www.blogger.com  and Just Publish it and Copy the Blogger Post Preview link To Your Profile in Description . When you look through these projects and find an opportunity that works for you, you can make an offer.
+        -If the client accepts your offer, you get the job! Simple!
+
+How do I get paid?
+    -We provide Direct Payment Gateways Through sending Our Bank Account Number or Paytm via Email to protect our clients  and artists during  the commission process. We hold the client’s funds and act as a third-party guarantor, allowing you to work knowing payment is guaranteed. These funds are often to be released on completion/delivery of the artwork or whenever stated in the description of a milestone. However, you and the client can make agreements with each other when you should be paid.
+ 
+    -For providing you with work and guaranteed payment, we charge a 15% commission fee – which we found is fair in comparison to most galleries!
+ 
+    -Artists encouraging clients to pay externally via our platform is discouraged.
+ 
+    -We work hard to bring these opportunities to artists and to provide a fair platform that supports freelance artistry. Abuse of this platform will lead to banning and exclusion to future opportunities.
+
+How should I deliver the artwork once complete?
+    -We recommend that when delivering artwork to a client you always ensure you just have to send artwork to us then We will deliver Artwork to Client ."/>
+
+
+</RelativeLayout>

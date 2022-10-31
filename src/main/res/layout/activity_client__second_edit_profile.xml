@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Client_SecondEdit_profile"
+    android:background="@drawable/gglround">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- <de.hdodenhof.circleimageview.CircleImageView
+
+             android:id="@+id/profile_pic"
+             android:layout_width="140.00dp"
+             android:layout_height="140.00dp"
+             android:layout_gravity="center"
+             android:layout_marginTop="12dp"
+             android:background="@drawable/ic_launcher_foreground" />-->
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/profile_picture"
+                android:src="@drawable/ic_account_circle_black_24dp"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text1"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Enter Your Details(client):"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Your Name"
+                android:textColorHint="#ffffff"
+                android:layout_margin="20dp"
+                android:id="@+id/profilename" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Your E-Mail ID"
+                android:layout_margin="20dp"
+                android:inputType="textEmailAddress"
+                android:textColorHint="#ffffff"
+                android:id="@+id/mailid" />
+
+
+            <Button
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/save"
+                android:layout_marginTop="130dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:background="@drawable/button_border"
+                android:layout_gravity="center"
+                android:text="save"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

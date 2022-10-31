@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ArtisticMedia</string>
+
+    <string-array name="selectartist">
+        <item>Animator</item>
+        <item>Calligraphy</item>
+        <item>Character Designer</item>
+        <item>Logo Designer</item>
+        <item>Digital Art worker</item>
+        <item>Landscape</item>
+        <item>PhotoManipulation</item>
+        <item>Tattoo Designer</item>
+        <item>Graphic Designer</item>
+        <item>Other...</item>
+    </string-array>
+    <string name="client_id">
+        251221057284-eig9fnsh2juno0c4fteudmlrje8lr8po.apps.googleusercontent.com
+    </string>
+
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:background="@drawable/gglround"
+    tools:context="com.example.shailesh.artisticmedia.MainActivity">
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="artistic media"
+
+        android:textColor="#fff"
+        android:textSize="55sp"
+        android:fontFamily="@font/abc"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RadioButton
+        android:id="@+id/radioButton1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Client"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:checked="true"
+        android:fontFamily="monospace"
+        android:layout_marginTop="50dp"
+
+        android:textSize="20dp" />
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Artist"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:fontFamily="monospace"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp" />
+
+    </RadioGroup>
+
+
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/google_signin_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wlc"
+
+        android:layout_centerInParent="true"
+
+        android:layout_marginTop="60dp"
+        />
+
+
+    <TextView
+        android:id="@+id/navigateto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How it works?"
+
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:fontFamily="monospace"
+        android:layout_marginTop="70dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+
+
+
+
+
+</LinearLayout>
